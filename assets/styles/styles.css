@@ -1,0 +1,50 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  /*background: rgb(231, 231, 231);*/ 
+  font-size: 16px;
+  background-size: 100%;
+/*  background-image: url("./assets/images/paraglind.jpg") no-repeat fixed center;*/
+}
+img {
+    width: 100%;
+  }
+.mainContainer { width: 100%; max-width: 1200px; margin: 0 auto; }
+.logo { width: 100px; padding: 10px 20px; }
+
+.menu { list-style: none; padding: 0; margin: 0; text-align: right;}
+/*.menu a:hover{ transition: 0.3s; }*/
+.menu li { display: inline-block; margin: 0 5px; }
+.menu li a { padding: 15px 20px; font-size: 18px; text-decoration: none; background: #2966a5; color: #fff; display: block; }
+
+.content { padding: 15px 0; }
+
+.tabHeader {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.tabHeader button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tabHeader button:hover {
+  background-color: #ddd;
+}
+.tabHeader button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 20px 15px;
+}
+.tabcontent h2 { margin-bottom: 15px; font-size: 30px; }
+
+.items { list-style: none; }
+.items li { padding: 15px; border: 2px solid #2966a5; margin-bottom: 15px; font-size: 18px; }
+.items h4 { color: #2966a5; font-size: 20px; }
+.items h5 { margin-bottom: 10px; }
